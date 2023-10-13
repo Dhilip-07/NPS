@@ -1,0 +1,170 @@
+body {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.Centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+.logo {
+    width: 265px;
+    height: 52px;
+    flex-shrink: 0;
+}
+
+.form-Centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.sign-in .form-control {
+    width: 100%;
+    height: 45px;
+}
+
+.sign-in label {
+    color: rgba(0, 0, 0, 0.52);
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.img-centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Login-title {
+    color: #ED7C76;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.Login-desc {
+    color: rgba(0, 0, 0, 0.52);
+    text-align: center;
+    font-size: 16px;
+    width: max-content;
+    margin-bottom: 25px;
+}
+
+.input-style {
+    border-radius: 10px;
+    background: #C6ABFF;
+}
+
+.checkbox-style {
+    border-radius: 5px;
+    background: #F3715B;
+}
+
+.btn-style {
+    width: 100%;
+    height: 30px;
+    flex-shrink: 0;
+    border: 0px;
+    border-radius: 10px;
+    background: #F3715B;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30) !important;
+    line-height: 1;
+}
+
+.btn-style:hover {
+    width: 100%;
+    height: 30px;
+    flex-shrink: 0;
+    border: 0px;
+    border-radius: 10px;
+    background: #F3715B;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30) !important;
+    line-height: 1;
+}
+
+.signup-btn-style {
+    border-radius: 10px;
+    border: 2px solid #F3715B;
+    background: #FFF;
+    width: 100%;
+    height: 30px;
+    flex-shrink: 0;
+    line-height: 1;
+    color: #868686;
+    text-align: center;
+}
+.signup-btn-style:hover {
+    border-radius: 10px;
+    border: 2px solid #F3715B;
+    background: #FFF;
+    width: 100%;
+    height: 30px;
+    flex-shrink: 0;
+    line-height: 1;
+    color: #868686;
+    text-align: center;
+}
+.Footer-img {
+    position: fixed;
+    bottom: 0;
+}
+
+.float-right {
+    float: right;
+}
+
+/* Adding Rating css format */
+
+
+.q .number_scale {
+	border-collapse:collapse;
+}
+.q .number_scale td {
+	padding-right:30px;
+	text-align:center;
+}
+.q .number_scale td input {
+	cursor:pointer;
+	left:-10000px;
+	opacity:0;
+	position:absolute;
+}
+.q .number_scale td label {
+  cursor: pointer;
+  font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+  outline: none;
+  border-radius: 20px;
+  box-sizing: border-box;
+  display: inline-block;
+  line-height: 40px;
+  width: 40px;
+  background: #BBBBBB;
+}
+.q .number_scale td label .number {
+	user-select:none;
+  color: black;
+}
+.q label b{
+  font-size: 21px;
+}
+.q .number_scale td input:checked + label {
+	font-weight:bold;
+	outline:2px solid;
+}
+.q .number_scale_label_left {
+	float:left;
+	text-align:left;
+	width:48%;
+}
+.q .number_scale_label_right {
+	float:right;
+	text-align:right;
+	width:48%;
+}
